@@ -4,7 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exam</title>
-    <link rel="style.css" href="mystyle.css">
+    <style>
+        .list{
+    text-decoration: none;
+    color: blue;
+    font-size: medium;
+}
+.list:hover{
+    text-decoration: none;
+    color:red ;
+
+}
+.list:active{
+    text-decoration: none;
+    color: green;
+}
+h1{
+    font: arial;
+    text-shadow: 10px 0px 10px 0px;
+    text-align: justify;
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.card{
+    padding: 20px;
+    border: 1px solid gray;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+gallery {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            height: 100vh;
+            background-color: white;
+            flex-direction: column;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            max-width: 400px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+    </style>
 </head>
 <body>
     <div class="list">
@@ -18,5 +78,15 @@
     </div>
     <h1>Fashion Store</h1>
     <p>A fashion store is a store that offers chic and stylish clothing for both men and women. They offer a wide range of clothing, from romantic lace and flowy maxi dresses to edgy leather jackets and timeless trench coats. The store may offer trendy fashion brands like H&M or more traditional clothing stores like Macy’s. The quality of the clothing can vary, and prices may reflect high quality materials and craftsmanship</p>
+    <div class="card">
+         <h2>Flower design</h2>
+         <p>The black flower design dress</p>
+    </div>
+    <div class="gallery">
+        <img src="51.jpg" alt="">
+        <img src="fashion.webp" alt="">
+        <img src="OIP (3).jpg" alt="">
+        <img src="Sydne-Style-shows.jpg" alt="">
+    </div>
 </body>
 </html>
