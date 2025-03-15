@@ -1,0 +1,14 @@
+.list{
+    text-decoration: none;
+    color: blue;
+    font-size: medium;
+}
+.list:hover{
+    text-decoration: none;
+    color:red ;
+
+}
+.list:active{
+    text-decoration: none;
+    color: green;
+}
