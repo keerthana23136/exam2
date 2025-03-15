@@ -12,3 +12,12 @@
     text-decoration: none;
     color: green;
 }
+h1{
+    font: arial;
+    text-shadow: 10px;
+    text-align: justify;
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
