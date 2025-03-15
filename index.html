@@ -63,6 +63,54 @@ gallery {
             height: auto;
             border-radius: 8px;
         }
+    .button{
+        border: 1px solid pink;
+        border-radius: 5px;
+        margin: 0;
+        size: 150px 50px;
+    }
+    .button:hover{
+        size: 1.vh;
+        transform: none;
+    }
+    nav {
+            display: flex;
+            gap: 20px;
+            background: #333;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            transition: 0.3s;
+        }
+        .image-container {
+            position: relative;
+            display: block;
+        }
+        .image-container img {
+            width: 50%;
+            height: auto;
+            display: block;
+        }
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px 20px;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            border-radius: 5px;
+        }
+    
 
     </style>
 </head>
@@ -87,6 +135,20 @@ gallery {
         <img src="fashion.webp" alt="">
         <img src="OIP (3).jpg" alt="">
         <img src="Sydne-Style-shows.jpg" alt="">
+    </div>
+    <div class="button">
+        <button>Hover Me</button>
+    </div>
+    <nav>
+        <a href="home">Home</a>
+        <a href="about">About</a>
+        <a href="contact">Contact us</a>
+    </nav>
+    <div class="image-container">
+        <img src="R.jpg" alt="">
+    </div>
+    <div class="text">
+        <h4>Keerthana</h4>
     </div>
 </body>
 </html>
